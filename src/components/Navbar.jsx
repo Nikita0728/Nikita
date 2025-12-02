@@ -37,8 +37,11 @@ const Navbar = () => {
                 transition: 'all 0.3s ease'
             }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <a href="#" style={{ fontSize: '1.5rem', fontWeight: 'bold', background: 'linear-gradient(to right, #8b5cf6, #ec4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                    NK.
+                <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
+                    <img src="/nk-logo.svg" alt="NK Logo" style={{ height: '40px', width: 'auto' }} />
+                    <span style={{ fontSize: '1.5rem', fontWeight: 'bold', background: 'linear-gradient(to right, #8b5cf6, #ec4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+                        NK.
+                    </span>
                 </a>
 
                 {/* Desktop Menu */}
